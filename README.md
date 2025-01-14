@@ -16,6 +16,19 @@
 
 A limited REPL (Read-Eval-Print Loop) interpreter for a subset of MIT Scheme, implemented in Scheme itself. This interpreter handles basic arithmetic operations, variable definitions, let expressions, and lambda functions.
 
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Supported Syntax](#supported-syntax)
+- [Usage](#usage)
+- [Example Interactions](#example-interactions)
+- [Implementation Details](#implementation-details)
+- [Error Handling](#error-handling)
+- [Limitations](#limitations)
+- [License](#license)
+- [Acknowledgement](#acknowledgement)
+
 ## Features
 
 - REPL environment with proper prompt handling
