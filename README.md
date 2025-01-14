@@ -1,5 +1,8 @@
-<h1 align="center">
+<div align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/MIT_GNU_Scheme_Logo.svg/1200px-MIT_GNU_Scheme_Logo.svg.png" width="120" alt="MIT/GNU Scheme Logo"/>
+</div>
+
+<h1 align="center">
     A REPL Interpreter for Scheme
 </h1>
 
