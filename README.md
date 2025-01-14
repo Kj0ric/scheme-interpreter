@@ -10,7 +10,7 @@
 
 [![PL](https://img.shields.io/badge/MIT%2FGNU_Scheme-red?style=for-the-badge)](https://www.gnu.org/software/mit-scheme/)
 [![Status](https://img.shields.io/badge/status-completed-green?style=for-the-badge)]()
-[![License](https://img.shields.io/badge/license-MIT-red?style=for-the-badge)](https://github.com/Kj0ric/lcd-semantic-analyzer/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-red?style=for-the-badge)](/LICENSE)
 
 </div>
 
