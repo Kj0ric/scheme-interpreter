@@ -96,35 +96,35 @@ The interpreter supports the following grammar:
 
 1. Load the interpreter in your Scheme environment:
 ```scheme
-(load "your-file.scm")
+(load "interpreter.scm")
 ```
 
 2. Start the REPL:
 ```scheme
-(cs305)
+(repl)
 ```
 
 3. Enter expressions at the prompt:
 ```scheme
-cs305> (define x 5)
-cs305: x
-cs305> (+ x 3)
-cs305: 8
+repl> (define x 5)
+repl: x
+repl> (+ x 3)
+repl: 8
 ```
 
 ## Example Interactions
 
 ```scheme
-cs305> ((lambda (n) (+ n 2)) 5)
-cs305: 7
+repl> ((lambda (n) (+ n 2)) 5)
+repl: 7
 
-cs305> (define inc2 (lambda (n) (+ n 2)))
-cs305: inc2
-cs305> (inc2 5)
-cs305: 7
+repl> (define inc2 (lambda (n) (+ n 2)))
+repl: inc2
+repl> (inc2 5)
+repl: 7
 
-cs305> (let ((x 3)(y 4)) (+ x y))
-cs305: 7
+repl> (let ((x 3)(y 4)) (+ x y))
+repl: 7
 ```
 
 ## Implementation Details
