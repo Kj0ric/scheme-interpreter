@@ -68,19 +68,28 @@ A limited REPL (Read-Eval-Print Loop) interpreter for a subset of MIT Scheme, im
 The interpreter supports the following grammar:
 
 ```bnf
-<s7> ::= <define> | <expr>
+<s7> ::= <define> 
+       | <expr>
 
 <define> ::= (define IDENT <expr>)
 
-<expr> ::= NUMBER | IDENT | <let> | <lambda> | (<operator> <operand_list>)
+<expr> ::= NUMBER 
+         | IDENT 
+         | <let> 
+         | <lambda> 
+         | (<operator> <operand_list>)
 
 <let> ::= (let (<var_binding_list>) <expr>)
 
 <lambda> ::= (lambda (<formal_list>) <expr>)
 
-<operator> ::= <built_in_operator> | <expr>
+<operator> ::= <built_in_operator> 
+             | <expr>
 
-<built_in_operator> ::= + | * | - | /
+<built_in_operator> ::= + 
+                      | * 
+                      | - 
+                      | /
 ```
 
 ## Usage
