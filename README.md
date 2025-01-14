@@ -209,6 +209,6 @@ The interpreter provides error messages for:
 
 This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
 
-## Acknowledgement
+## Acknowledgements
 
 This project was developed as part of the Programming Languages course at Sabanci University. Special thanks to the course instructor Hüsnü Yenigün and teaching assistants for their guidance and support.
