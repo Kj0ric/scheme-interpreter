@@ -27,7 +27,7 @@ A limited REPL (Read-Eval-Print Loop) interpreter for a subset of MIT Scheme, im
 - [Error Handling](#error-handling)
 - [Limitations](#limitations)
 - [License](#license)
-- [Acknowledgement](#acknowledgement)
+- [Acknowledgements](#acknowledgements)
 
 ## Features
 
